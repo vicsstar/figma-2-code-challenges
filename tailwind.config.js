@@ -11,7 +11,7 @@ module.exports = {
           'card-body': '#383A45',
         },
         backgroundImage: {
-          'cover-photo': 'url("/images/mountain.jpg")',
+          'cover-photo': 'url("/assets/images/mountain.jpg")',
         },
         fontFamily: {
           poppins: 'Poppins',
