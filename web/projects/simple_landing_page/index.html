@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Card</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bebas+Neue">
+    <link rel="stylesheet" href="/assets/css/tailwind.css">
+</head>
+<body class="flex justify-center items-center h-screen">
+    
+    <div class="w-full h-screen lg:flex">
+        <div class="h-landing-mobile-hero relative lg:w-1/2 lg:h-screen">
+            <img src="/assets/images/on-phone.jpg" alt="" class="absolute left-0 h-full w-full object-cover"/>
+            <div class="absolute left-0 top-0 right-0 bottom-0 flex flex-col justify-center items-center gap-5 bg-landing-primary bg-opacity-75 text-center text-white px-7 lg:px-16 lg:items-end">
+                <div class="uppercase text-5xl font-semibold font-bebas-neue leading-tight tracking-wide lg:tracking-wider md:px-7 lg:px-0 lg:text-7xl lg:text-right">
+                    <p>got marketing?</p>
+                    <p>advance your business insight</p>
+                </div>
+                <p class="text-2xl font-poppins md:px-7 lg:px-0 lg:text-right">Fill out the form and receive our award winning newsletter.</p>
+            </div>
+        </div>
+        <div class="flex flex-col justify-center px-7 md:px-10 py-10 font-poppins gap-9 lg:w-1/2 lg:px-32">
+            <div class="flex flex-col gap-7 md:flex-row md:w-full lg:flex-col">
+                <fieldset class="flex flex-col md:w-1/2 lg:w-auto">
+                    <label class="mb-2">Name</label>
+                    <input type="text" name="name" class="field-text"/>
+                </fieldset>
+                <fieldset class="flex flex-col md:w-1/2 lg:w-auto">
+                    <label class="mb-2">Email</label>
+                    <input type="email" name="email" class="field-text"/>
+                </fieldset>
+            </div>
+            <button type="submit" class="bg-landing-primary text-white py-4 lg:self-start lg:px-10 lg:text-lg">Sign me up</button>
+        </div>
+    </div>
+
+</body>
+</html>

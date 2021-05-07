@@ -2,9 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-/* @font-face {
-    font-family: Poppins;
-    src: url(/assets/fonts/Poppins-Regular.ttf);
-    font-style: normal;
-    font-weight: normal;
-} */
+@layer components {
+    .field-text {
+        @apply text-lg px-4 py-3 border rounded bg-gray-50;
+    }
+}
