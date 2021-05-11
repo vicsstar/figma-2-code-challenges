@@ -6,4 +6,8 @@
     .field-text {
         @apply text-lg px-4 py-3 border rounded bg-gray-50;
     }
+
+    .home-card-link {
+        @apply text-blue-500 border rounded p-5 bg-gray-50 hover:bg-gray-100 transition duration-200;
+    }
 }
