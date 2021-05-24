@@ -13,6 +13,8 @@ module.exports = {
         },
         backgroundImage: {
           'cover-photo': 'url("/assets/images/mountain.jpg")',
+          'dashboard-mobile': 'url("/assets/images/bg-dashboard-mobile.png")',
+          'dashboard-not-mobile': 'url("/assets/images/bg-dashboard-not-mobile.png")'
         },
         fontFamily: {
           poppins: 'Poppins',
